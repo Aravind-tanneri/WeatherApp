@@ -294,4 +294,4 @@ function crossFadeBackground(imageUrl) {
 myLocBtn.addEventListener("click",(e)=>{getUserLocation()})
 
 // Run this when the page loads
-window.addEventListener("load", getUserLocation());
+window.addEventListener("load", getUserLocation);
